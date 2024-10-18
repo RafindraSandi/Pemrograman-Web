@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+}
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.icons {
+    display: flex;
+    gap: 20px;
+}
+.icons i {
+    font-size: 20px;
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.main .details {
+    max-width: 50%;
+}
+.main .details h2 {
+    font-size: 32px;
+    margin: 0 0 20px;
+}
+.main .details p {
+    font-size: 16px;
+    margin: 0 0 20px;
+}
+.main .details .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+.main .details .add-to-cart {
+    background-color: #e53935;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.main .image img {
+    max-width: 100%;
+}
+.pro-decks {
+    background-color: #f9f9f9;
+    padding: 40px;
+}
+.pro-decks h3 {
+    font-size: 24px;
+    margin: 0 0 20px;
+}
+.pro-decks .deck-list {
+    display: flex;
+    justify-content: space-between;
+}
+.pro-decks .deck-item {
+    text-align: center;
+    max-width: 20%;
+}
+.pro-decks .deck-item img {
+    max-width: 100%;
+}
+.pro-decks .deck-item p {
+    margin: 10px 0 0;
+    font-size: 16px;
+}
+.pro-decks .deck-item .price {
+    font-size: 14px;
+    color: #888;
+}
+.pro-decks .view-all {
+    text-align: right;
+    margin-top: 20px;
+}
+.pro-decks .view-all a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.good-skate {
+    text-align: center;
+    padding: 40px;
+}
+.good-skate h3 {
+    font-size: 24px;
+    margin: 0 0 20px;
+}
+.good-skate p {
+    font-size: 16px;
+    margin: 0 0 20px;
+}
+.good-skate img {
+    max-width: 100px;
+    margin: 0 0 20px;
+}
+.good-skate .original {
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+.footer p {
+    font-size: 14px;
+    margin: 0 0 20px;
+}
+.footer .support {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+}
